@@ -1,0 +1,19 @@
+{
+    "format_version": 1,
+    "imports": [
+        {
+            "target_table": "text_analysis.ta_hdbmod::text_gra",
+            "source_data": {
+                "data_type": "CSV",
+                "file_name": "text_analysis.ta_hdbmod::text_data.csv",
+                "has_header": true
+            },
+            "import_settings": {
+                "import_columns": [
+                    "ID",
+                    "STRING"
+                ]
+            }
+        }
+    ]
+}

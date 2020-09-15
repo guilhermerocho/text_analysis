@@ -1,0 +1,5 @@
+FULLTEXT INDEX "text_analysis.ta_hdbmod::gra_fti"
+ON "text_analysis.ta_hdbmod::text_gra" ("STRING")
+CONFIGURATION 'text_analysis.ta_hdbmod::GRAMMATICAL_ROLE_ANALYSIS'
+LANGUAGE DETECTION ('EN')
+TEXT ANALYSIS ON

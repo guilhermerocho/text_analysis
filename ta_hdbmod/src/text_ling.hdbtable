@@ -1,0 +1,6 @@
+COLUMN TABLE "text_analysis.ta_hdbmod::text_ling" 
+(
+   "ID" INTEGER, 
+   "STRING" VARCHAR(200),
+   PRIMARY KEY ("ID") 
+)

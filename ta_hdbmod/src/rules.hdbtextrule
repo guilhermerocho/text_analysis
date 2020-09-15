@@ -1,0 +1,10 @@
+#group PartRequest: <STEM:ask|send> <>*? [TE PART_NUMBER] <>+ [/TE]
+
+! This is a comment
+! #group = for entity or events, i.e., the ultimate pattern to be extracted
+! +, *, ?, {m}, {n,m} = Iteration operators
+! [TE] = expression markers to reference dictionary entities
+! <>*? AND <>+ = empty or placeholder token with the appropriate regular expression operator
+
+! Rule to identify credit card numbers -- including the card company --
+#group CREDIT_CARD@AMERICAN_EXPRESS: <3[47][0-9]{13,13}> 

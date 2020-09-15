@@ -1,0 +1,5 @@
+FULLTEXT INDEX "text_analysis.ta_hdbmod::ling_fti"
+ON "text_analysis.ta_hdbmod::text_ling" ("STRING")
+CONFIGURATION 'text_analysis.ta_hdbmod::LINGANALYSIS_FULL'
+LANGUAGE DETECTION ('EN')
+TEXT ANALYSIS ON

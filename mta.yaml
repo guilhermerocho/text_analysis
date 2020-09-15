@@ -1,0 +1,16 @@
+ID: text_analysis
+_schema-version: '2.1'
+version: 0.0.1
+
+modules:
+ - name: ta_hdbmod
+   type: hdb
+   path: ta_hdbmod
+   requires:
+    - name: hdi_ta_hdbmod
+
+resources:
+ - name: hdi_ta_hdbmod
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
