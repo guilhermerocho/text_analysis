@@ -1,5 +1,5 @@
 FULLTEXT INDEX "text_analysis.ta_hdbmod::text_fti"
 ON "text_analysis.ta_hdbmod::text" ("STRING")
-CONFIGURATION 'text_analysis.ta_hdbmod::text_configuration'
+CONFIGURATION 'text_analysis.ta_hdbmod::IRB_Rule1'
 LANGUAGE DETECTION ('EN')
 TEXT ANALYSIS ON
